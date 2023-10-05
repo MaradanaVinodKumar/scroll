@@ -1,0 +1,82 @@
+#main{
+    border: 0px solid black;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom:300px ;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+#one,#two,#three{
+    border: 0px solid;
+    padding-bottom:300px ;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+}
+#one{
+    background-color: pink;
+    background-image: linear-gradient(to top right,rgb(199, 94, 111),rgb(245, 164, 177),pink,rgb(252, 226, 226),rgb(245, 164, 177));
+    
+}
+#two{
+    background-color: rgb(192, 204, 255);
+    background-image: linear-gradient(to top right,rgb(87, 105, 189),rgb(163, 178, 243),rgb(192, 204, 255),rgb(217, 222, 248),rgb(163, 178, 243));
+}
+#three{
+    background-color: rgb(192, 255, 226);
+    background-image: linear-gradient(to top right,rgb(83, 180, 135),rgb(151, 233, 195),rgb(192, 255, 226),rgb(220, 248, 235),rgb(151, 233, 195));
+}
+#left,#right{
+    border: 0px solid;
+    width: 1.5%;
+    position: absolute;
+    top: 45%;
+    font-size: 40px;
+
+}
+#left{
+    left: 1%;
+}
+#right{
+    left: 95%;
+}
+.hov{
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.hov:hover{
+    opacity: 1;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+    
+}
+.hov:active{
+    color: black;
+    
+}
+#dot-scroll{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    border: 0px solid;
+    width: 60px;
+    padding: 4px 4px;
+    font-size: 10px;
+    background-color: white;
+   
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(187, 187, 187);
+    
+}
+#dot-one{
+    color: black;
+    transition: 3s;
+}
+#dot-two,#dot-three{
+    transition: 1s;
+}
